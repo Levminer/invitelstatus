@@ -1,0 +1,112 @@
+body {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(48, 43, 43, 1) 50%, rgba(0, 0, 0, 1) 100%);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: auto;
+}
+
+footer {
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#header1 {
+	font-size: 40px;
+}
+
+#text1 {
+	font-size: 35px;
+}
+
+#counter {
+	font-size: 100px;
+}
+
+#text2 {
+	font-size: 35px;
+}
+
+#header2 {
+	font-size: 40px;
+}
+
+.awesome {
+	width: 100%;
+
+	text-align: center;
+
+	color: #313131;
+	font-size: 50px;
+	font-weight: bold;
+
+	-webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+	0% {
+		color: blue;
+	}
+
+	10% {
+		color: #8e44ad;
+	}
+
+	20% {
+		color: #1abc9c;
+	}
+
+	30% {
+		color: #d35400;
+	}
+
+	40% {
+		color: blue;
+	}
+
+	50% {
+		color: #34495e;
+	}
+
+	60% {
+		color: blue;
+	}
+
+	70% {
+		color: #2980b9;
+	}
+	80% {
+		color: #f1c40f;
+	}
+
+	90% {
+		color: #2980b9;
+	}
+
+	100% {
+		color: pink;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	footer {
+		display: none;
+	}
+}
