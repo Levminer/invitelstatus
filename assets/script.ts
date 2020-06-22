@@ -11,14 +11,14 @@ $(document).ready(function () {
 //?counter
 let counter = () => {
 	let counter: any = document.getElementById("counter")
-	counter.innerHTML = "43"
+	counter.innerHTML = "57"
 	//modify "XX"
 }
 
 //?date
 let date = () => {
 	let date: any = document.getElementById("date")
-	date.innerHTML = "Utolsó hiba: 2020.06.03."
+	date.innerHTML = "Utolsó hiba: 2020.06.22."
 	// modify "Utolsó hiba: XXXX.XX.XX."
 }
 
@@ -26,7 +26,7 @@ let date = () => {
 let footer = () => {
 	let footer: any = document.getElementById("footer")
 	footer.innerHTML =
-		'Készítette: <a href="https://github.com/Levminer">Levminer</a> - Invitel Status V5.4 - Forráskód:	<a href="https://github.com/Levminer/invitelstatus">GitHub</a>'
+		'Készítette: <a href="https://github.com/Levminer">Levminer</a> - Invitel Status V5.5 - Forráskód:	<a href="https://github.com/Levminer/invitelstatus">GitHub</a>'
 	//modify "Invitel Status VX.X.X"
 }
 
@@ -55,6 +55,8 @@ let history_2020_05 = () => {
 
 let history_2020_06 = () => {
 	//modify "Leállások (XX)"
-	"Leállások (5): \n 06.01 (kb. 2 óra) \n 06.01 (kb. 15 perc) \n 06.02 (kb. 15 perc) \n 06.03 (kb. 1 óra) \n 06.03 (kb. 5 perc)"
+	alert(
+		"Leállások (23): \n 06.01 (kb. 2 óra) \n 06.01 (kb. 15 perc) \n 06.02 (kb. 15 perc) \n 06.03 (kb. 1 óra) \n 06.03 (kb. 5 perc) \n 06.03 (kb. 30 perc) \n 06.05 (kb. 15 perc) \n 06.05 (kb. 45 perc) \n 06.05 (kb. 15 perc) \n 06.06 (kb. 5 perc) \n 06.06 (kb. 15 perc) \n 06.22 (12x ment el a net)"
+	)
 	//modify "\n XX.XX (kb. XX perc/óra)"
 }
