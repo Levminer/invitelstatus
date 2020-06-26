@@ -11,14 +11,14 @@ $(document).ready(function () {
 //?counter
 let counter = () => {
 	let counter: any = document.getElementById("counter")
-	counter.innerHTML = "57"
+	counter.innerHTML = "60"
 	//modify "XX"
 }
 
 //?date
 let date = () => {
 	let date: any = document.getElementById("date")
-	date.innerHTML = "Utolsó hiba: 2020.06.22."
+	date.innerHTML = "Utolsó hiba: 2020.06.26."
 	// modify "Utolsó hiba: XXXX.XX.XX."
 }
 
@@ -56,7 +56,7 @@ let history_2020_05 = () => {
 let history_2020_06 = () => {
 	//modify "Leállások (XX)"
 	alert(
-		"Leállások (23): \n 06.01 (kb. 2 óra) \n 06.01 (kb. 15 perc) \n 06.02 (kb. 15 perc) \n 06.03 (kb. 1 óra) \n 06.03 (kb. 5 perc) \n 06.03 (kb. 30 perc) \n 06.05 (kb. 15 perc) \n 06.05 (kb. 45 perc) \n 06.05 (kb. 15 perc) \n 06.06 (kb. 5 perc) \n 06.06 (kb. 15 perc) \n 06.22 (12x ment el a net)"
+		"Leállások (26): \n 06.01 (kb. 2 óra) \n 06.01 (kb. 15 perc) \n 06.02 (kb. 15 perc) \n 06.03 (kb. 1 óra) \n 06.03 (kb. 5 perc) \n 06.03 (kb. 30 perc) \n 06.05 (kb. 15 perc) \n 06.05 (kb. 45 perc) \n 06.05 (kb. 15 perc) \n 06.06 (kb. 5 perc) \n 06.06 (kb. 15 perc) \n 06.22 (12x ment el a net) \n 06.24 (kb. 15 perc) \n 06.25 (kb. 10perc) \n 06.26 (kb. 5 perc)"
 	)
 	//modify "\n XX.XX (kb. XX perc/óra)"
 }
