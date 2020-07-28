@@ -6,7 +6,13 @@ $(document).ready(function () {
 	counter()
 	date()
 	footer()
+	over()
 })
+
+//? over
+let over = () => {
+	alert("Hamarosan leváltjuk a világ legjobb internetszolgáltatóját, fél év alatt 60 kimaradás! Micsoda teljesítmény!")
+}
 
 //?counter
 let counter = () => {
@@ -26,7 +32,7 @@ let date = () => {
 let footer = () => {
 	let footer: any = document.getElementById("footer")
 	footer.innerHTML =
-		'Készítette: <a href="https://github.com/Levminer">Levminer</a> - Invitel Status V5.5 - Forráskód:	<a href="https://github.com/Levminer/invitelstatus">GitHub</a>'
+		'Készítette: <a href="https://github.com/Levminer">Levminer</a> - Invitel Status V6 - Forráskód:	<a href="https://github.com/Levminer/invitelstatus">GitHub</a>'
 	//modify "Invitel Status VX.X.X"
 }
 
